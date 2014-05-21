@@ -1,0 +1,71 @@
+<resources>
+
+    <dimen name="checkDimen">400dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Following dimens for side menu -->
+    <dimen name="side_navigation_width">200dp</dimen>
+    <dimen name="side_navigation_item_padding_topbottom">12dp</dimen>
+    <dimen name="side_navigation_item_padding_leftright">8dp</dimen>
+    <dimen name="side_navigation_item_image_height">24dp</dimen>
+    <dimen name="side_navigation_item_image_width">24dp</dimen>
+    <dimen name="side_navigation_item_image_padding">2dp</dimen>
+    <dimen name="side_navigation_item_text_size">18sp</dimen>
+    <dimen name="side_navigation_item_text_padding_left">10dp</dimen>
+    <dimen name="nav_drawer_width">300dp</dimen>
+    <dimen name="Font_Tile">22sp</dimen>
+    <dimen name="headerHeight">50dp</dimen>
+    <dimen name="headerButtonHeight">50dp</dimen>
+    <dimen name="headerButtonWidth">50dp</dimen>
+    <dimen name="Font_Tile_title">24sp</dimen>
+    <dimen name="menuButtonwidth">45dp</dimen>
+    <dimen name="customerAdapterWidth">100dp</dimen>
+    <dimen name="Font_Big_Title">22dp</dimen>
+    <dimen name="Font_Big">18sp</dimen>
+    <dimen name="Font_Medium">16sp</dimen>
+    <dimen name="Font_Small">12sp</dimen>
+    <dimen name="Font_Menu">20sp</dimen>
+    <dimen name="menuMarginRight">50dp</dimen>
+    <dimen name="tile_height">40dp</dimen>
+    <dimen name="loginSeperatorHeight">100dp</dimen>
+    <dimen name="custDetailsTiles">60dp</dimen>
+    <dimen name="visitReportLableWidth">120dp</dimen>
+    <dimen name="textviewsize">160dp</dimen>
+    <dimen name="menuMarginleft">100dp</dimen>
+    <dimen name="headerPading">5dp</dimen>
+    <dimen name="height_map">100dp</dimen>
+    <dimen name="prod_flag_width">20dp</dimen>
+    <dimen name="scheme_foc_list_item_height">80dp</dimen>
+
+    <!--
+  	 @author Basit Parkar
+ 	 @date Nov 19, 2013
+    -->
+    <dimen name="editTextHeight">35dp</dimen>
+    <dimen name="editTextWidth">70dp</dimen>
+    <dimen name="imageViewTopMargin">12dp</dimen>
+    <dimen name="beatlist_item_height">48dp</dimen>
+    <dimen name="beatlistmargin">4dp</dimen>
+    <dimen name="itemheight">40dp</dimen>
+    <dimen name="itemmargin">4dp</dimen>
+    <!-- <dimen name="activity_horizontal_margin">16dp</dimen> -->
+    <!-- <dimen name="activity_vertical_margin">16dp</dimen> -->
+    <dimen name="calendarheadermargin">4dp</dimen>
+
+    <!-- Jan 24, 2013 Add new outlet -->
+    <dimen name="outlet_margin">8dp</dimen>
+    <dimen name="outlet_et_small_padding">4dp</dimen>
+    <dimen name="outlet_et_padding">8dp</dimen>
+
+    <!-- Feb 5, 2013 Merchandizing -->
+    <dimen name="camera_margin">4dp</dimen>
+    <dimen name="salesreturnprodlistmargin">48dp</dimen>
+
+    <!-- Common margins -->
+    <dimen name="margin">4dp</dimen>
+    <dimen name="margin2x">8dp</dimen>
+    <dimen name="lvpadding">16dp</dimen>
+
+</resources>

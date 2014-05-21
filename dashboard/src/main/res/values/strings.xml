@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DNA</string>
+    <string name="menu_settings">menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loginID">User ID</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="versionno">Version %1$s</string>
+    <string name="Call_Activities">Call Activities</string>
+    <string name="view_salesTargets">View \nSales Targets</string>
+    <string name="view_reports">View Reports</string>
+    <string name="settings">Synch</string>
+    <string name="monthlySalesPlan">Monthly Sales \n Plan</string>
+    <string name="addOutlet">Add Outlet</string>
+    <string name="expenseMgmt">Expense Management</string>
+    <string name="product">Product</string>
+    <string name="Qty">Qty</string>
+    <string name="grossAmt">Total Amount</string>
+    <string name="noproducts">No Products</string>
+    <string name="retailerDetails">Retailer Details</string>
+    <string name="plannedRetailers">Planned\nRetailers</string>
+    <string name="unplannedRetailsers">Unplanned Retailers</string>
+    <string name="viewPlannedRoutes">View Planned Routes</string>
+    <string name="salesOrder">Sales Order</string>
+    <string name="products">Products</string>
+    <string name="copyright">© 2014, Mobien Technologies Pvt. Ltd.</string>
+    <string name="title_activity_splashscreen_act">Splashscreen_act</string>
+    <string name="action_settings">Settings</string>
+    <string name="keyur_laptop">AIzaSyBy-SWZrckhIguc0-uQOJt0uwRJRcsfaNg</string>
+    <string name="basit_pc">AIzaSyAu2jUyAc7M3Vl4s9n5lz2MNcCaIoGoCYs</string>
+    <string name="basit_laptop">AIzaSyDljh_Gh-nLL4p-HftjA5DW6su41K-Vo-c</string>
+    <string name="signing_key_himalaya">AIzaSyALzhTyJsnvMvlp3Jt4NEtghjnPOADN9TI</string>
+    <string name="title_activity_add_expense">AddExpenseActivity</string>
+    <string name="title_activity_sales_report__list">SalesReport_List</string>
+    <string name="title_activity_visit_report__list">VisitReport_List</string>
+    <string name="title_activity_sales_report__details">SalesReport_Details</string>
+    <string name="title_activity_visit_report__details">VisitReport_Details</string>
+    <string name="title_activity_visit_report_top5visit">VisitReport_top5visit</string>
+    <string name="title_activity_customer__location_on_map">Customer_Location_onMap</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_planned_customer_list">PlannedCustomerList</string>
+    <string name="title_activity_analytics">Analytics</string>
+    <string name="title_activity_order_status__list">OrderStatus_List</string>
+    <string name="title_activity_order_status__details">OrderStatus_Details</string>
+    <string name="title_activity_product_delievery_status">Product_delievery_status</string>
+    <string name="msg_NORecordsFound">No records available.</string>
+    <string name="title_activity_dashboard_dynamic__scrollable">DashboardDynamic_Scrollable</string>
+    <string name="title_activity_full_image_view">FullImageView</string>
+    <string name="title_activity_collection_list">CollectionList</string>
+    <string name="title_activity_collection_form">CollectionForm</string>
+    <string name="title_activity_customer_list__for__collection">CustomerList_For_Collection</string>
+    <string name="title_activity_distributor__selection__for__sales_order">Distributor_Selection_For_SalesOrder</string>
+    <string name="title_activity_product_level__scheme__details">ProductLevel_Scheme_Details</string>
+    <string name="cust_search">Customer Search</string>
+    <string name="title_activity_Scheme_View">Scheme View</string>
+    <string name="dummynos">00.00</string>
+    <string name="addexp">Add new expense</string>
+    <string name="noexpensefound">Add new expense report</string>
+    <string name="addreturnprods">Please add products.</string>
+    <string name="testingtext"></string>
+    <!--
+          Basit 'iZ' Parkar Territory
+    	 Date : 18th Nov, 2013
+    	 Version : 1.0
+    	 Mod Date : 18th Nov, 2013
+    -->
+
+
+    <!-- Competitor Info -->
+    <string name="title_activity_competitor_info">Competitor Information</string>
+    <string name="rate">Price</string>
+    <string name="remark">Remark</string>
+    <string name="cd">Content Descriptor for image</string>
+    <string name="prodSearch">Product Search</string>
+    <string name="norecordsavail">No Records Available</string>
+    <string name="compscheme">Competitor Scheme</string>
+
+    <!-- Create Call Plan -->
+    <string name="label_dsm">Select Personnel</string>
+    <string name="label_beat">Beat</string>
+    <string name="monday">mon</string>
+    <string name="tuesday">tue</string>
+    <string name="wednesday">wed</string>
+    <string name="thursday">thu</string>
+    <string name="friday">fri</string>
+    <string name="saturday">sat</string>
+    <string name="sunday">sun</string>
+
+    <!-- Visibility -->
+    <string name="amt">Amount</string>
+    <!-- <string name="qty">Quantity</string> -->
+
+
+    <!-- Inventory Take -->
+    <string name="title_section1">Product</string>
+    <string name="title_section2">Scheme</string>
+
+    <!-- Sales Order -->
+    <string name="cash_disc">Cash Discount in %</string>
+    <string name="productname">Product Name</string>
+    <string name="lastOrderQty">Last Order Qty.</string>
+    <string name="lastOrderDate">Last Order Date</string>
+    <string name="invQty">Invoice Quantity</string>
+    <string name="Rate">Rate (%1$s)</string>
+    <string name="bonusQty">Bonus Qty</string>
+    <string name="qty">Qty.</string>
+    <string name="scheme">Scheme</string>
+    <string name="payterm">Payterm</string>
+    <string name="custname">Customer Name</string>
+    <string name="custType">Customer Type</string>
+    <string name="distriname">Distributor Name</string>
+    <string name="orderdate">Order Date</string>
+    <string name="orderno">Sales Order No.</string>
+    <string name="paymentterm">Payment Term</string>
+    <string name="grossamt">Gross Amount</string>
+    <string name="netamt">Grand Total</string>
+    <string name="disamt">Disc. Amount</string>
+    <string name="taxes">VAT Amount</string>
+    <string name="filter1">Filter 1</string>
+    <string name="filter2">Filter 2</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="distrifilter">Distributor Filter</string>
+
+    <!-- Secondary Returns -->
+    <string name="batchno">Batch No.</string>
+    <string name="mrp">MRP (%1$s)</string>
+    <string name="mrp_nolegend">MRP</string>
+    <string name="returncat">Return Category</string>
+    <string name="discamt">Disc. Amt (%1$s)</string>
+    <string name="vatamt">VAT Amt (%1$s)</string>
+
+    <!-- Create new outlet -->
+    <string name="outlet_name">Retailer Name*</string>
+    <string name="contact_name">Owner Name*</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="addr1">Address 1*</string>
+    <string name="addr2">Address 2*</string>
+    <string name="beatname">Beat Name*</string>
+    <string name="distname">Distributor Name*</string>
+    <string name="personaldetails">Personal Details</string>
+    <string name="retailerclassification">Retailer Classification</string>
+    <string name="commdetails">Communication Details</string>
+    <string name="otherdetails">Other Details</string>
+    <string name="registrationdetails">Registration Details</string>
+    <string name="registrationdate">Registration Date</string>
+    <string name="tinno">TIN No.</string>
+    <string name="cstno">CST No.</string>
+    <string name="shopactlicno">Shop Act License No.</string>
+    <string name="shopactlicexp">Shop Act License Expiry Date</string>
+    <string name="druglicenseno">Drug License No.</string>
+    <string name="druglicenseexp">Drug License Expiry Date</string>
+    <string name="foodlicenseno">Food License No.</string>
+    <string name="foodlicenseexp">Food License Expiry Date</string>
+    <string name="refretailercode">Reference Retailer Code</string>
+    <string name="addmargin">Additional Margin</string>
+    <string name="marginper">Margin Percentage</string>
+    <string name="outlettype">Retailer Type*</string>
+    <string name="outletcat">Retailer Category*</string>
+    <string name="outletchannel">Retailer Channel*</string>
+    <string name="addr3">Address 3</string>
+    <string name="pinno">Pin</string>
+    <string name="phone1">Phone No. 1</string>
+    <string name="phone2">Phone No. 2</string>
+    <string name="freqofvisit">Frequency of Visit</string>
+    <string name="townname">Town Name*</string>
+    <string name="townclass">Town Classification*</string>
+    <string name="email">Email id</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="moduleunderconstruction">Feature releasing shortly</string>
+    <string name="error_sd_card_not_mounted">External storage is required. Your SD card is most likely not mounted.</string>
+    <string name="error_could_not_take_photo">There was an issue with your camera. We are very sorry for the inconvenience!</string>
+    <string name="todate">To Date</string>
+    <string name="secretnotallowed">Can\'t perform transactions for an unapproved customer</string>
+    <string name="addproducts">Please add inventory</string>
+
+    <!-- Secondary Collections -->
+    <string name="addpayment">Add Payment</string>
+    <string name="modifypayment">Modify Payment</string>
+    <string name="invoiceno">Invoice No.</string>
+    <string name="totPendingAmt">Retailer Outstanding Amt. (%1$s)</string>
+    <string name="invdate">Invoice Date</string>
+    <string name="pendinginvamt">Pending Invoice Amt.</string>
+    <string name="modeofpayment">Mode of Payment</string>
+    <string name="chqdate">Instrument Date</string>
+    <string name="instrumentno">Instrument No.*</string>
+    <string name="bankdetails">Bank Details</string>
+    <string name="invamt">Amount (%1$s)</string>
+    <string name="totInvAmt">Total Amount (%1$s)</string>
+
+    <!-- Basit 'iZ' Territory Ends -->
+
+
+    <!-- Location Client -->
+    <string name="performance_message">For better performance please enable connect to internet</string>
+    <string name="go">GO</string>
+    <string name="title_activity_create_new_call_plan">Create Call Plan</string>
+
+    <!-- Common Strings -->
+    <string name="alphanumeric">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 .</string>
+    <string name="alphanumericwithoutspace">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="alphabets">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz </string>
+    <string name="alphabets_for_names">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz .</string>
+    <string name="alphabets_for_address">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ./\-,</string>
+    <string name="digits_with_decimal">0123456789.</string>
+    <string name="digits_without_decimal">0123456789</string>
+    <string name="phone">0123456789+</string>
+    <string name="noimages">No images</string>
+    <string name="title_activity_visibility_distribution">VisibilityDistributionActivity</string>
+    <string name="title_activity_view_call_plan">ViewCallPlanActivity</string>
+    <string name="title_activity_product_selection">ProductSelectionActivity</string>
+    <string name="title_activity_inventory_take">InventoryTakeActivity</string>
+    <string name="title_activity_prod_list_for_sales_order">ProdListForSalesOrderActivity</string>
+    <string name="title_activity_distributor_list_for_sales_order">DistributorListForSalesOrderActivity</string>
+    <string name="title_activity_comp__adapter__distributor">Comp_Adapter_Distributor</string>
+    <string name="title_activity_sales_order_execution">SalesOrderExecutionActivity</string>
+    <string name="title_activity_sales_summary">SalesSummaryActivity</string>
+    <string name="title_activity_product_level_scheme_details">ProductLevelSchemeDetails</string>
+    <string name="title_activity_secondary_returns">SecondaryReturnsActivity</string>
+    <string name="title_activity_order_level_scheme_list">OrderLevelSchemeList</string>
+    <string name="devapk">development Application</string>
+    <string name="title_activity_expense_approval_list">ExpenseApprovalListActivity</string>
+    <string name="title_activity_secondary_collections_main_actvity">SecondaryCollectionsMainActvity</string>
+    <string name="title_activity_make_payments">Collections Payment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

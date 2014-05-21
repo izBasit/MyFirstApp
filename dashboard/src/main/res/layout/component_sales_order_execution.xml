@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Mobien Technologies Pvt. Ltd.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  @author Basit Parkar
+  @date date Nov 18, 2013
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/sales_order_list"
+    android:orientation="vertical"
+    android:padding="@dimen/margin2x" >
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/productname"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/Font_Medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvLastOrderedQty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lastOrderQty"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Font_Medium" />
+
+        <TextView
+            android:id="@+id/tvLastOrderDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lastOrderDate"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Font_Medium" />
+
+        <TextView
+            android:id="@+id/tvInvQty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Font_Medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvRate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rate"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Font_Medium" />
+
+        <EditText
+            android:id="@+id/etQty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:digits="@string/digits_without_decimal"
+            android:gravity="right"
+            android:hint="@string/Qty"
+            android:inputType="phone"
+            android:maxLength="4"
+            android:paddingRight="@dimen/margin"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Font_Medium" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ivScheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cd"
+                android:src="@drawable/schemeflaggrey" />
+
+            <ImageView
+                android:id="@+id/ivSchemeApplied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cd"
+                android:src="@drawable/schemeflagred"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

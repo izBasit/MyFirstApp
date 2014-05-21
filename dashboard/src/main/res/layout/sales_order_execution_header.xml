@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llcustdetailsheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/sales_order_grey"
+        android:orientation="vertical"
+        android:padding="@dimen/margin2x" >
+
+        <TextView
+            android:id="@+id/tvCustName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Aasdhaksdhakjdhakjdhakjsdhakjdhka"
+            android:textSize="@dimen/Font_Big"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSalesOrderDocno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="aksdjaldjalkdjalkdja"
+            android:textSize="@dimen/Font_Medium" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rlPayterm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llcustdetailsheader"
+        android:layout_centerHorizontal="true"
+        android:background="@color/sales_order_pink"
+        android:padding="@dimen/margin2x" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/margin2x"
+            android:contentDescription="@string/cd"
+            android:src="@drawable/ic_arrow" />
+
+        <TextView
+            android:id="@+id/tvPayTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/payterm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/Font_Medium" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlCashDiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlPayterm"
+        android:layout_centerHorizontal="true"
+        android:background="@color/sales_order_grey"
+        android:padding="@dimen/margin2x" >
+
+        <TextView
+            android:id="@+id/tvCashDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/cash_disc"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Font_Medium" />
+
+        <EditText
+            android:id="@+id/etCashDiscount"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:digits="@string/digits_with_decimal"
+            android:gravity="right|center_vertical"
+            android:hint="0"
+            android:inputType="phone"
+            android:maxLength="3"
+            android:paddingLeft="@dimen/margin2x"
+            android:paddingRight="@dimen/margin2x"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Font_Medium" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlCashDiscount"
+        android:layout_centerHorizontal="true"
+        android:background="@color/sales_order_list_header"
+        android:orientation="vertical"
+        android:padding="@dimen/margin2x" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/productname"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/Font_Medium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lastOrderQty"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Font_Medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lastOrderDate"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Font_Medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/invQty"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Font_Medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rate"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Font_Medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Qty"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Font_Medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/scheme"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Font_Medium" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
